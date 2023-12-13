@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 
 namespace TicTacToeSubmissionConole
 {
@@ -19,7 +19,7 @@ namespace TicTacToeSubmissionConole
 
             Console.ForegroundColor = oldColor ;
 
-
+            Console.WriteLine(TicTacToe.CheckWinner());
             Console.SetCursorPosition(20, 25);
             Console.WriteLine("Thank you for playing");
             Console.ReadLine();
